@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27BC83C3F0D6B2A709CC861A01582091 /* ALTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92839270A482F2E7EF8539B300D141C9 /* ALTimer.m */; };
+		57F86FF8E596D2A84F81E696B822AAD1 /* ALTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 98352A25FF75F36DD61629316103542E /* ALTimer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7115C57ACA84ACC85265D133B1489A31 /* Pods-ALTimerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F50E899E414425FDE7392F86C8E5C03 /* Pods-ALTimerDemo-dummy.m */; };
+		898FE30C8E05690DD2EE459D4BED51B2 /* ALTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAD66EA3C6330B054A3130D65B51427 /* ALTimer-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		264C74BCE332BFE8935615292B1AE142 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A834281702599EC82EED6CF3A5A4D331;
+			remoteInfo = ALTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		723C96C968FBF41D4CE4B1E786C2030A /* Pods-ALTimerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALTimerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		77CAFBC783C08FC63E5A64154BACBD69 /* libALTimer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libALTimer.a; path = libALTimer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F50E899E414425FDE7392F86C8E5C03 /* Pods-ALTimerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALTimerDemo-dummy.m"; sourceTree = "<group>"; };
+		8C6122C129AF444F14905CFACBBF711D /* ALTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALTimer-prefix.pch"; sourceTree = "<group>"; };
+		92839270A482F2E7EF8539B300D141C9 /* ALTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALTimer.m; path = ALTimer/ALTimer.m; sourceTree = "<group>"; };
+		98352A25FF75F36DD61629316103542E /* ALTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALTimer.h; path = ALTimer/ALTimer.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B98A0F14DA9A5A9336BD2E7D224DD70B /* Pods-ALTimerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALTimerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BAA26946D5AC7708F68CB80112ECE1B1 /* Pods-ALTimerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALTimerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BEAD66EA3C6330B054A3130D65B51427 /* ALTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALTimer-dummy.m"; sourceTree = "<group>"; };
+		D27BD4FACF80A542376338D4B46BCDBA /* Pods-ALTimerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALTimerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3D843C0A410F4FBEBA779D4BD538209 /* libPods-ALTimerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ALTimerDemo.a"; path = "libPods-ALTimerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB06336F5235C499A7C6E68F33B1E0A3 /* ALTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALTimer.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BC9A51A1F50ADBC0B4F4EBDCAB9DC08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C1B0C311BE20FDEFE83BEF2C1C3C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9154C867B0638102E3C1A68499F8FB1F /* ALTimer */ = {
+			isa = PBXGroup;
+			children = (
+				98352A25FF75F36DD61629316103542E /* ALTimer.h */,
+				92839270A482F2E7EF8539B300D141C9 /* ALTimer.m */,
+				B525003380F2C1FAD6FDB0AD12CC4D37 /* Support Files */,
+			);
+			name = ALTimer;
+			path = ALTimer;
+			sourceTree = "<group>";
+		};
+		91AD5AEAC59840030B052271F2D34F3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9154C867B0638102E3C1A68499F8FB1F /* ALTimer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA31BD9A92296C6B71BBCF304338B32D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF0990D15B6C18EBFA353FFE58114C36 /* Pods-ALTimerDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B525003380F2C1FAD6FDB0AD12CC4D37 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB06336F5235C499A7C6E68F33B1E0A3 /* ALTimer.xcconfig */,
+				BEAD66EA3C6330B054A3130D65B51427 /* ALTimer-dummy.m */,
+				8C6122C129AF444F14905CFACBBF711D /* ALTimer-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ALTimer";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				91AD5AEAC59840030B052271F2D34F3E /* Pods */,
+				DCAC30F31E8E75E959BA54C573398805 /* Products */,
+				AA31BD9A92296C6B71BBCF304338B32D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCAC30F31E8E75E959BA54C573398805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77CAFBC783C08FC63E5A64154BACBD69 /* libALTimer.a */,
+				F3D843C0A410F4FBEBA779D4BD538209 /* libPods-ALTimerDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF0990D15B6C18EBFA353FFE58114C36 /* Pods-ALTimerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BAA26946D5AC7708F68CB80112ECE1B1 /* Pods-ALTimerDemo-acknowledgements.markdown */,
+				D27BD4FACF80A542376338D4B46BCDBA /* Pods-ALTimerDemo-acknowledgements.plist */,
+				7F50E899E414425FDE7392F86C8E5C03 /* Pods-ALTimerDemo-dummy.m */,
+				B98A0F14DA9A5A9336BD2E7D224DD70B /* Pods-ALTimerDemo.debug.xcconfig */,
+				723C96C968FBF41D4CE4B1E786C2030A /* Pods-ALTimerDemo.release.xcconfig */,
+			);
+			name = "Pods-ALTimerDemo";
+			path = "Target Support Files/Pods-ALTimerDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AEE4E8B70283D2C7B800E12594C38F10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F86FF8E596D2A84F81E696B822AAD1 /* ALTimer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCF38FA05BE2882B845D9CF670FEBF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A834281702599EC82EED6CF3A5A4D331 /* ALTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A5A7A7E4845984177162BBD0433B821 /* Build configuration list for PBXNativeTarget "ALTimer" */;
+			buildPhases = (
+				AEE4E8B70283D2C7B800E12594C38F10 /* Headers */,
+				3BFA2208197872A28487B1B7FE38E9AA /* Sources */,
+				D1C1B0C311BE20FDEFE83BEF2C1C3C18 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALTimer;
+			productName = ALTimer;
+			productReference = 77CAFBC783C08FC63E5A64154BACBD69 /* libALTimer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FAAFB5B8055E783AF0969E44A18E6833 /* Pods-ALTimerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6506CA71471E5780291ECAAB364F90A /* Build configuration list for PBXNativeTarget "Pods-ALTimerDemo" */;
+			buildPhases = (
+				DDCF38FA05BE2882B845D9CF670FEBF0 /* Headers */,
+				80EA75EC72EE45EC4B767A57D0949476 /* Sources */,
+				0BC9A51A1F50ADBC0B4F4EBDCAB9DC08 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94B13F861F5389A485DCB018C535177B /* PBXTargetDependency */,
+			);
+			name = "Pods-ALTimerDemo";
+			productName = "Pods-ALTimerDemo";
+			productReference = F3D843C0A410F4FBEBA779D4BD538209 /* libPods-ALTimerDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DCAC30F31E8E75E959BA54C573398805 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A834281702599EC82EED6CF3A5A4D331 /* ALTimer */,
+				FAAFB5B8055E783AF0969E44A18E6833 /* Pods-ALTimerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BFA2208197872A28487B1B7FE38E9AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898FE30C8E05690DD2EE459D4BED51B2 /* ALTimer-dummy.m in Sources */,
+				27BC83C3F0D6B2A709CC861A01582091 /* ALTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80EA75EC72EE45EC4B767A57D0949476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7115C57ACA84ACC85265D133B1489A31 /* Pods-ALTimerDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94B13F861F5389A485DCB018C535177B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ALTimer;
+			target = A834281702599EC82EED6CF3A5A4D331 /* ALTimer */;
+			targetProxy = 264C74BCE332BFE8935615292B1AE142 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1C27F14C9A4E97F5DDD5F2BB1E5B7B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB06336F5235C499A7C6E68F33B1E0A3 /* ALTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ALTimer/ALTimer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ALTimer;
+				PRODUCT_NAME = ALTimer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AA511C5FC7F9993B176B7D584F0D5BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B98A0F14DA9A5A9336BD2E7D224DD70B /* Pods-ALTimerDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6C16CD23A2134D23AF1491590D1C273C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB06336F5235C499A7C6E68F33B1E0A3 /* ALTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ALTimer/ALTimer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ALTimer;
+				PRODUCT_NAME = ALTimer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD8838A7D4D84EF5DEBF53DD0B8A9ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 723C96C968FBF41D4CE4B1E786C2030A /* Pods-ALTimerDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A5A7A7E4845984177162BBD0433B821 /* Build configuration list for PBXNativeTarget "ALTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C27F14C9A4E97F5DDD5F2BB1E5B7B11 /* Debug */,
+				6C16CD23A2134D23AF1491590D1C273C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6506CA71471E5780291ECAAB364F90A /* Build configuration list for PBXNativeTarget "Pods-ALTimerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA511C5FC7F9993B176B7D584F0D5BB /* Debug */,
+				BD8838A7D4D84EF5DEBF53DD0B8A9ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

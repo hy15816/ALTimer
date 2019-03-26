@@ -1,0 +1,69 @@
+//
+//  AA.h
+//  ALTimerDemo
+//
+//  Created by Lost-souls on 2019/3/26.
+//  Copyright © 2019年 Lost-souls. All rights reserved.
+//
+/**
+
+创建并发布自己的代码到 cocoapods ：
+
+1.代码托管在Github仓库(可以新创建repo,创建时选择license为MIT)
+2.把仓库clone到本地
+3.添加模块代码与demo(一般)，如本地仓库文件ALTimer包含{ALTimer,ALTimerDemo,README.md,LICENSE}
+4.创建 .podspec 文件, cd ../ALTimer
+5.执行 pod spec create #<name>   name与组件名字一样，这里是：ALTimer
+6.成功后提示：Specification created at ALTimer.podspec，且 本地仓库文件ALTimer为{ALTimer,ALTimerDemo,README.md,LICENSE,ALTimer.podspec}
+7.修改 ALTimer.podspec 配置文件，主要配置项如下：
+    7.1 spec.name   = "ALTimer"  // 名称与组件名称一样
+    7.2 version     = "1.0.0"       // 版本号，一般为1.0.0
+    7.3 summary     = "A timer"     // 简介
+    7.4 description = "A timer description" // 描述，这个要比summary写的多点，否则后面报警告
+    7.5 homepage    = "https://github.com/hy15816/ALTimer"  // 代码托管地址
+    7.6 license     = "MIT"
+    7.7 author      = {"#<name>" => "邮箱"}
+    7.8 platform    = :ios,"8.0"
+    7.9 source      = { :git => "https://github.com/hy15816/ALTimer.git", :tag => "#{spec.version}" }   // 把git里的改了就行,tag无需改动
+    7.10 source_files = "ALTimer/*"
+    7.11 requires_arc = true    //
+8.验证podspec是否正确：pod lib lint
+                    pod lib lint --verbose  // 加上 --verbose 会打印输出错误信息
+9.成功显示：ALTimer passed validation.
+    9.1 失败1：[iOS] unknown: Encountered an unknown error (The `ALTimer` pod failed to validate due to 1 error: // 说明没有将Command Line Tools工具放到xcode中
+        解决：执行 sudo xcode-select -s /Applications/Xcode.app  // -s 后面是xcode文件路径
+    9.2 失败2：description: The description is empty. // 描述为空,填上就可以了
+    9.3 ...
+10.pod验证
+     执行:  set the new version to 1.0.0
+           set the new tag to 1.0.0
+11.把修改提交到GitHub
+     git add .
+     git commit -m "更新描述"
+     git tag '1.0.0'
+     git push --tags
+     git push origin master
+     
+ 12.发布组件代码到pods
+     pod trunk push ALTimer.podspec
+                                                         
+     成功提示
+     --------------------------------------------------------------------------------
+     🎉  Congrats
+     
+     🚀  ALTimer (1.0.0) successfully published
+     📅  March 26th, 07:41
+     🌎  https://cocoapods.org/pods/ALTimer
+     👍  Tell your friends!
+     --------------------------------------------------------------------------------
+                                                         
+    失败1："- ERROR | [iOS] unknown: Encountered an unknown error ([!] /usr/bin/git clone https://github.com/hy15816/ALTimer.git /var/folders/pc/vfr9fzt15d1g69cylj1bml9h0000gn/T/d20190326-18410-zizkqw --template= --single-branch --depth 1 --branch 0.0.1 Cloning into '/var/folders/pc/vfr9fzt15d1g69cylj1bml9h0000gn/T/d20190326-18410-zizkqw'... warning: Could not find remote branch 0.0.1 to clone. fatal: Remote branch 0.0.1 not found in upstream origin ) during validation." // 发现是.podspec里的version对不上tag版本，修改一下就好了
+
+附：注册cocopods ：pod trunk register example@example.com 'username' --verbose // 邮箱和用户名，
+成功之后会提示已发邮件"Please verify the session by clicking the link in the verification email that has been sent to hy15816@gmail.com",这时需要去邮箱点击一下链接就ok了。
+                                                         检验是否注册成功：pod trunk me
+                                                         
+
+*/
+     
+                                                         

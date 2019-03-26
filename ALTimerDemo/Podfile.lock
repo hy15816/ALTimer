@@ -1,0 +1,16 @@
+PODS:
+  - ALTimer (1.0.0)
+
+DEPENDENCIES:
+  - ALTimer
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ALTimer
+
+SPEC CHECKSUMS:
+  ALTimer: f6e6231affc95e15f82473db90e488661926975c
+
+PODFILE CHECKSUM: 2e24d6f554f0d21087c895331c6143f44ba3667f
+
+COCOAPODS: 1.6.1
